@@ -1,0 +1,239 @@
+@media (max-width: 1200px) {
+    .fixedwidth{
+       padding-left: 30px;
+       padding-right: 30px;
+      box-sizing: border-box;
+    }
+    .logo {
+        width: 25%;
+    }
+    .menu ul li a {
+        padding: 10px 17px;
+    }
+    .logo span {
+        font-size: 22px;
+    }
+    .logo img {
+        width: 50px;
+    }
+    .batton a {
+        padding: 10px 9px;
+    }
+    .service h1 {
+        font-size: 37px;
+        margin-bottom: 14px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .logo img {
+        float: none;
+        margin-top: 6px;
+    }
+    .logo span {
+        font-size: 26px;
+        position: relative;
+        top: -15px;
+    }
+    .menu {
+        width: 74%;
+    }
+    .batton {
+        width: 24%;
+        text-align: center;
+    }
+    .menu ul li a {
+        padding: 18px 15px;
+    }
+    .batton a {
+        padding: 11px 21px;
+        font-size: 19px;
+    }
+    .header {
+        position: relative;
+    }
+    .video-con h1 {
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+    .video-con p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        text-align: left;
+    }
+    .batton {
+        width: 100%;
+        text-align: right;
+        margin-left: 16px;
+        margin-bottom: 8px;
+        margin-top: -65px;
+    }
+    .menu ul {
+      
+        margin-top: -13px;
+        font-size: 20px;
+    }
+    .menu ul li a {
+        padding: 18px 8px;
+    }
+    .batton a {
+        padding: 8px 7px;
+        font-size: 15px;
+        margin-top: -18px;
+    }
+    .benner-text h2 {
+        margin-bottom: 17px;
+        font-size: 23px;
+    }
+    .benner-text h1 {
+        margin-bottom: 15px;
+        font-size: 54px;
+    }
+    .benner-text a {
+        font-size: 20px;
+    }
+    .video {
+        width: 100%;
+    }
+    .video-con {
+        width: 100%;
+        margin-top: 41px;
+        height: 80%;
+    }
+}
+
+/* ----Remove--css----- */
+.menu span {
+    display: none;
+}
+.menu .check-me{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        margin-top: 0;
+        font-size: 0;
+    }
+    .menu .check-me:checked~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+
+    .batton {
+        width: 200px;
+        position: absolute;
+        right: 16px;
+        top: 135px;
+        text-align: right;
+
+        
+    }
+    .menu span {
+        display: block;
+        font-size: 32px;
+        color: blue;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .menu .check-me {
+        display: block;
+        position: absolute;
+        top: 76px;
+        left: 38px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li a {
+        padding: 3px 3px;
+    }
+    .logo img {
+        width: 43px;
+    }
+    .logo span {
+        font-size: 20px;
+    }
+    .menu ul li ul {
+        top: -119px;
+        left: 95px;
+        width: 174px;
+        background-color: wheat;
+    }
+    .menu ul li ul li a {
+        border-bottom: none;
+        padding: 9px 15px;
+    }
+    .benner-text h2 {
+        margin-bottom: 17px;
+        font-size: 20px;
+    }
+    .benner-text h1 {
+        margin-bottom: 13px;
+        font-size: 38px;
+    }
+    .benner-text a {
+        font-size: 18px;
+    }
+    .video-con p {
+        font-size: 14px;
+    }
+    
+
+
+}
+
+
+@media (max-width: 400px) {
+    .benner-text h1 {
+        margin-bottom: 7px;
+        font-size: 22px;
+    }
+    .benner-text h2 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .benner-text a {
+        padding: 10px 8px;
+    }
+    .benner {
+        padding: 40px 0px;
+    }
+}
+@media (max-width: 278px) {
+    .menu .check-me {
+        top: 73px;
+        opacity: 0;
+    }
+    .batton {
+        top: 134px;
+    }
+    .logo span {
+        font-size: 17px;
+    }
+    .logo img {
+        width: 38px;
+    }
+    .menu span {
+        cursor: pointer;
+    }
+}
